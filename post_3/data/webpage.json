@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://policy.trade.ec.europa.eu/news_en",
+    "name": "Commission_News",
+    "items": ".//div[@class=\"ecl-content-item-block\"]//article",
+    "item_xpath": {
+      "title": ".//h1/a",
+      "link": ".//h1/a",
+      "publication_date": ".//time",
+      "description": ".//ul[@class=\"ecl-content-block__primary-meta-container\"]/li"
+    },
+    "pagination": ".//li[@class=\"ecl-pagination__item ecl-pagination__item--next\"]/a"
+  },
+  {
+    "url": "https://www.europarl.europa.eu/committees/en/inta/home/press-releases",
+    "name": "EP_press_releases",
+    "items": ".//div[@class='erpl_document ']",
+    "item_xpath": {
+      "title": ".//h3/a/span",
+      "link": ".//h3/a",
+      "publication_date": ".//div/span[1]",
+      "description": ".//p"
+    },
+    "load_more_button": ".//button[contains(.,\"Load more\")]",
+    "load_more_max": 2
+  }
+]
