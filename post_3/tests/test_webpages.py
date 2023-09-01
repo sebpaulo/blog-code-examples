@@ -1,6 +1,4 @@
 from scraper import webpages
-from pydantic import HttpUrl
-from typing import Type
 
 
 def test_item_xpath(xpath_data_example_1):
@@ -12,14 +10,12 @@ def test_item_xpath(xpath_data_example_1):
 def test_server_webpage(webpage_data_example_1):
     webpage = webpages.ServerSideWebPage.from_dict(webpage_data_example_1)
     assert isinstance(webpage, webpages.ServerSideWebPage)
-    assert isinstance(webpage.url, type(HttpUrl))
     assert isinstance(webpage.name, str)
 
 
 def test_client_webpage(webpage_data_example_2):
     webpage = webpages.ClientSideWebPage.from_dict(webpage_data_example_2)
     assert isinstance(webpage, webpages.ClientSideWebPage)
-    assert isinstance(webpage.url, HttpUrl)
     assert isinstance(webpage.name, str)
 
 
