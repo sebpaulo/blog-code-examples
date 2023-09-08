@@ -8,9 +8,10 @@ The code runs web scraping on the two web pages specified in data/webpage.json.
 
 If you want to try out the code, here is how to get started:
 
-- Developed and tested with Python 3.11
+- Developed and tested with Python 3.11, MacOS/Unix
 - clone the repo and go to the directory for post_3
 - create a virtual environment: `python -m venv venv`
+- activate the virtual environment: `source venv/bin/activate` (or equivalent command on Windows)
 - install requirements: `pip install -r requirements.txt`
 - Install the cli app from the setup.py: `pip install .`
 
