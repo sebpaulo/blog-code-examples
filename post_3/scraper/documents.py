@@ -29,14 +29,14 @@ class Document:
 
     @field_validator("title", "description", mode="before")
     def validate_text(cls: "Document", element: _Element) -> str:
-        txt = element.text or get_text_from_sub_elements(element)
+        txt = get_text_from_sub_elements(element)
         if len(txt.strip()) == 0:
             raise ValueError
         return txt.strip()
 
     @field_validator("publication_date", mode="before")
     def validate_date(cls: "Document", date_element: _Element) -> date:
-        date_str = date_element.text or get_text_from_sub_elements(date_element)
+        date_str = get_text_from_sub_elements(date_element)
         if not date_str:
             raise TypeError
         try:
