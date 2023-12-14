@@ -10,4 +10,5 @@ To use the notebook, create a conda environment and install the required package
 `conda activate statsenv`
 
 `conda install pandasdmx -c conda-forge`
+
 `conda install -c conda-forge matplotlib`
