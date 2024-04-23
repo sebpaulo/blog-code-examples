@@ -27,7 +27,6 @@ PySocks==1.7.1
 pytest==7.4.0
 python-dateutil==2.8.2
 requests==2.31.0
-scraper @ file:///Users/sebastianpaulo/projects/blog-code-examples/post_3
 selenium==4.11.2
 six==1.16.0
 sniffio==1.3.0
