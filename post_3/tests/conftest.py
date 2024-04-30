@@ -14,8 +14,8 @@ def webpages_filepath():
 @pytest.fixture
 def xpath_data_example_1():
     return {
-            "title": ".//h1/a",
-            "link": ".//h1/a",
+            "title": ".//a",
+            "link": ".//a",
             "publication_date": ".//time",
             "description": ".//ul[@class=\"ecl-content-block__primary-meta-container\"]/li"
         }

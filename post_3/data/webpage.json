@@ -4,8 +4,8 @@
     "name": "Commission_News",
     "items": ".//div[@class=\"ecl-content-item-block\"]//article",
     "item_xpath": {
-      "title": ".//h1/a",
-      "link": ".//h1/a",
+      "title": ".//a",
+      "link": ".//a",
       "publication_date": ".//time",
       "description": ".//ul[@class=\"ecl-content-block__primary-meta-container\"]/li"
     },
