@@ -1,0 +1,15 @@
+.replay-button {
+    background-color: #454c4a;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.replay-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
