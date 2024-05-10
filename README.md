@@ -10,3 +10,4 @@ Code examples are available for:
 - post_2: A two-part article on how to use Pricipal Component Analysis and Clustering to develop a typology, with the example of aid donor countries
 - post_3: A two-part article on writing a robust data collection pipeline for web scraping in a "functional" programming style
 - post_4: Working with data from official providers: a brief tour of pandaSDMX
+- post_5: Using the Beveridge curve to visualise trends in Germany's labour market
