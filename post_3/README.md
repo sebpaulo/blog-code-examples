@@ -13,7 +13,7 @@ If you want to try out the code, here is how to get started:
 - create a virtual environment: `python -m venv venv`
 - activate the virtual environment: `source venv/bin/activate` (or equivalent command on Windows)
 - install requirements: `pip install -r requirements.txt`
-- Install the cli app from the setup.py: `pip install .`
+- Install the cli app from the pyproject.toml: `pip install .`
 
 Use the cli app to run a scraping process with the venv activated:
 - `scraper_cli run-spiders data/webpage.json --max-days 60`
